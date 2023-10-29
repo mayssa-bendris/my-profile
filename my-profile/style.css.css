@@ -1,0 +1,81 @@
+/* Couleurs et fond */
+
+h1, h2, h3 {
+	font-family: 'Apple Chancery', cursive;
+	background-color: #8C705F;
+	color: #D7CA94;
+}
+h1 {
+	font-weight: 700;
+    font-size: 55px;
+    margin: 10px 10px;
+}
+
+h2 {
+	font-weight: 550;
+	font-size: 35px;
+	margin: 10px 10px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	color: white;
+}
+
+body {
+	
+	background-image: url('images/fond.jpg');
+	background-color: #ED254E;
+	color: #ED254E;
+	background-size: cover;
+}
+p {
+	font-family: 'Arial', sans-serif;	
+	font-weight: lighter;
+	color: #92979C;
+	font-size: 18px;
+}
+
+
+
+/* Custom */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-white {
+	background-color: #8C705F;
+	padding: 30px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 1px;
+	margin: 35px 50px ;
+	text-align: center;
+}
+.img-circle {
+	border-radius: 1%;
+}
+
+.list-horizontal {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-horizontal li {
+	display: inline;
+	padding: 30px;	
+}
+.list-horizontal i {
+	font-size: 50px;
+	color: #D7CA94;
+}
+.list-horizontal i:hover {
+	color: black;
+}
+
+#introduction p {
+	margin-bottom: 20px;
+}
